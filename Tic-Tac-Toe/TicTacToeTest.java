@@ -2,9 +2,13 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TicTacToeTest{
-    }
+public class TicTacToeTest {
 
+    private TicTacToe game;
+
+    public TicTacToeTest() {
+        
+    }
 @Before
     public void setUp(){
         TicTacToe game = new TicTacToe (); 
@@ -260,6 +264,11 @@ public void testPlayerMove(){
         game.placeMark(1, 2);
         assertTrue(game.checkForWin());
     }
+}
+
+
+
+
 
 
 
