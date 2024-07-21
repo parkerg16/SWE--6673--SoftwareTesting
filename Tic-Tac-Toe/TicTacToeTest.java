@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class TicTacToeTest {
 
+    @SuppressWarnings("unused")
     private TicTacToe game;
 
     public TicTacToeTest() {
@@ -11,6 +12,7 @@ public class TicTacToeTest {
     }
 @Before
     public void setUp(){
+        @SuppressWarnings("unused")
         TicTacToe game = new TicTacToe (); 
     }
 
@@ -259,12 +261,17 @@ public void testPlayerMove(){
     @Test
     public void testCheckWinHorizontal() {
         TicTacToe game = new TicTacToe();
-        game.placeMark(1, 0);
-        game.placeMark(1, 1);
-        game.placeMark(1, 2);
+        game.placeMark(0, 0);
+        game.placeMark(0, 1);
+        game.placeMark(0, 2);
         assertTrue(game.checkForWin());
     }
 }
+
+
+
+
+
 
 
 
