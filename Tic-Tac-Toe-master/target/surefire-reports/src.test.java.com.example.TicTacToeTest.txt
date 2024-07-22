@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: src.test.java.com.example.TicTacToeTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.263 s <<< FAILURE! - in src.test.java.com.example.TicTacToeTest
+testCheckWinHorizontal(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testCheckWinHorizontal(TicTacToeTest.java:237)
+
+testWinningConditionDiagonal(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testWinningConditionDiagonal(TicTacToeTest.java:58)
+
+testWinningConditionRow(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testWinningConditionRow(TicTacToeTest.java:42)
+
+testBoardFullButNoWinner(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testBoardFullButNoWinner(TicTacToeTest.java:204)
+
+testGameOverAfterPlayerWins(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testGameOverAfterPlayerWins(TicTacToeTest.java:190)
+
+testWinningConditionAntiDiagonal(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testWinningConditionAntiDiagonal(TicTacToeTest.java:100)
+
+testPlayerCannotMoveAfterGameOver(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testPlayerCannotMoveAfterGameOver(TicTacToeTest.java:161)
+
+testDrawCondition(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testDrawCondition(TicTacToeTest.java:72)
+
+testWinningConditionColumn(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testWinningConditionColumn(TicTacToeTest.java:50)
+
+testGameOverAfterWin(src.test.java.com.example.TicTacToeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at src.test.java.com.example.TicTacToeTest.testGameOverAfterWin(TicTacToeTest.java:125)
+
