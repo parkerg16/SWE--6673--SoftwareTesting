@@ -1,3 +1,4 @@
+package src.main.java.com.example;
 import java.util.Scanner;
 import java.awt.Robot;
 import java.io.IOException;
@@ -1384,11 +1385,6 @@ public class TicTacToe{
 		ge.clearScreen();
 	}
 	
-	
-	
-   }
-}
-
 	
 	
    }
