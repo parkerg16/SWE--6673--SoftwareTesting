@@ -6,7 +6,7 @@ In the realm of software testing, the efficiency and effectiveness of test case 
 
 To demonstrate these techniques, we selected three real-world Java programs from GitHub: a hvac engine, a tic-tac-toe game, and a pizza shop management system. 
 
-The "Chess for Java" program simulates a complete chess-playing environment for two players, including checkmate detection and a chess clock. Developed in the Spring of 2014, the objective was to create and test a bug-free standalone game in Java, complete with a GUI and game logic components. This game was built using core Java, Java Swing GUI libraries, and the jUnit test suite. Testing this program involves ensuring the correctness of various chess rules, move legality, and user interactions.
+The "Hvac Engine'' program simulates a complete HVAC system management environment, including temperature regulation and air quality monitoring. It provides a comprehensive library for calculating moist air properties, encompassing crucial thermodynamic processes such as heating, dry cooling, real cooling with condensate discharge, mixing single or multiple air streams, and more. The goal is to provide a straightforward and efficient psychrometrics library, ideal for integration into any HVAC software development project. This is quite a complicated project with hundreds of test cases. 
 
 Additionally, the “Pizza Shop'' program represents a more complex, real-world application with functionalities for order management, inventory tracking, customer interactions, and financial transactions. Testing this system involves validating various aspects such as order processing, inventory updates, customer data management, and report generation.
 
